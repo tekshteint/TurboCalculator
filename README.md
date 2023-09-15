@@ -4,16 +4,11 @@ A program made for helping calculate turbo sizing and to help with reading compr
 
 This program will:
 
-	Estimate crank horsepower
+ - Estimate crank horsepower
   
-	Calculate pressure ratio given boost target and vice versa
+ - Calculate pressure ratio given boost target and vice versa
   
-	Convert common airflows used on compressor maps
-  
-Looking to add:
-  
-	Images/general improvement of GUI
-  
-	Formula to estimate boost curves
-  
-		This will allow estimated dyno graphs
+ - Convert common airflows used on compressor maps
+
+ - Graph estimated horsepower vs airflow to help gauge efficiency throughout the RPM range
+ 	- Note this assumes you are always in full boost as calculating spool is not really a possibility so use it with that knowledge in hand.
