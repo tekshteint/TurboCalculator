@@ -1,5 +1,13 @@
-import matplotlib.pyplot as plt
-import numpy as np
+import os as installer
+try:
+    import matplotlib.pyplot as plt
+    import numpy as np
+except ImportError:
+    installer.system("pip install numpy --user")
+    installer.system("pip install matplotlib --user")
+    print("All packages successfully installed.")
+    import matplotlib.pyplot as plt
+    import numpy as np
 
 def graphing(HP, afr, bsfc):
     # Create an array of airflow values based on horsepower
